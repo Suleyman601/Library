@@ -1,0 +1,166 @@
+
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  text-align: center;
+  background-color: #8ebcd6;
+}
+
+
+h1{
+  margin:0;
+  font-size: 2rem;
+  padding: .4em;
+  letter-spacing: .1rem;
+}
+
+
+#container{
+  width: 60%;
+  margin: 0 auto;
+}
+.btn-book{
+  display: block;
+  margin-top:3em;
+  margin-bottom: 2em;
+  padding: .8em;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  box-shadow: 0px 0px 4px #a5a4a4;
+}
+
+.btn-style{
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  box-shadow: 0px 0px 4px #a5a4a4;
+}
+
+.btn-style:hover{
+  background-color: #ebebeb;
+}
+
+.btn-style:active{
+  background-color: white;
+}
+
+/*Table*/
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+thead tr{
+  text-align: left;
+  color: white;
+  background-color: #003152;
+  font-weight: bold;
+}
+
+th{
+  font-size: 1.1rem;
+}
+
+td{
+  border-top: 1px solid gray;
+  font-size: .9rem;
+}
+
+
+th, td{
+  padding: .4em;
+}
+
+tr:last-child{
+  border-bottom: 2px solid  #003152;
+}
+
+tr button{
+  margin: .4rem;
+  box-shadow: 0px 0px 4px #a5a4a4;
+  background-color: white;
+  border:none;
+  border-radius: 10px;
+  padding: .3em .6em;
+}
+
+tbody tr:hover{
+  background-color:  #8ebcd6;
+}
+
+/*Modal*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefefe;
+  border: 1px solid #888;
+  border-radius: 10px;
+  width: 25%;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Form*/
+form{
+  margin:1em;
+  margin-top: 0;
+}
+
+form input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom:.8em;
+}
+
+form input[type=submit]{
+  margin-top: .8em;
+  width: 100%;
+  padding: 12px 20px;
+  font-size: .8rem;
+}
+
+
+/* The Close Button */
+.close {
+  color: hsl(0, 0%, 67%);
+  font-size: 2.5rem;
+  font-weight: bold;
+  align-self: flex-end;
+  margin: .5rem;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
